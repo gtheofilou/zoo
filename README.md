@@ -1,6 +1,6 @@
 # Virtual Zoo
 
-It implements a "Virtual Zoo" based on the tasks of the preliminary test.  
+A Spring Boot web application implementing a "Virtual Zoo" based on the tasks of the preliminary test.  
 The following endpoints are exposed:
 
 - myZoo/animals/all (task 3.1)
