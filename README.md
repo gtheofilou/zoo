@@ -18,6 +18,7 @@ The following endpoints are exposed:
 ### Notes
 
 - At start-up the application creates and populates the database automatically.  
-  The relative code is located in src/util/DatabaseLoader.java, in case more data is needed.
+  An H2 in-memory database is used, along with the Hibernate framework as ORM. The relative code is located in
+  src/util/DatabaseLoader.java, in case more data is needed.
 - The animal - species relation is modeled as a ManyToOne, while the relation animal - tricks as a ManyToMany leveraging
   an auxiliary table. A custom ResultTransformer converts the raw results to entities, without firing extra queries.
